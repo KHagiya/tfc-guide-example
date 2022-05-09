@@ -2,6 +2,15 @@ provider "aws" {
   region = var.region
 }
 
+terraform {
+  cloud {
+    hostname = "kahoru-tfe-direct.tf-support.hashicorpdemo.com"
+    organization = "kahoru-tfe"
+    workspaces {
+      tags = ["tfc-guide-example"]
+    }
+  }
+}
 data "aws_ami" "ubuntu" {
   most_recent = true
 
