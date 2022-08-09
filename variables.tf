@@ -8,6 +8,11 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
+variable "environment" {
+  description = "justbecause I got an error"
+  default     = "environment"
+}
+
 variable "instance_name" {
   description = "EC2 instance name"
   default     = "example-01"

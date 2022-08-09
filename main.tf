@@ -37,3 +37,5 @@ resource "aws_instance" "ubuntu" {
     Ownedby             = var.owned_by
   }
 }
+
+
