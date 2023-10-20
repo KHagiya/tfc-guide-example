@@ -15,6 +15,6 @@ variable "instance_name" {
 
 variable "owned_by" {
   description = "Owned_by"
-  default     = "kahoru.hagiya@hashicorp.com"
+  default     = "not_kahoru"
 }
 

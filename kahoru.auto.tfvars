@@ -1,0 +1,1 @@
+instance_name = "kahoru-test-auto.tfvars"
